@@ -1,0 +1,107 @@
+---
+projects:
+ - {url: "http://github.com/teijo/asc",
+    date: 2012,
+    year: "'12",
+    text: "A Space Combat",
+    description: "Real-time multiplayer browser shooter",
+    tech: ["LiveScript", "bacon.js", "5 WebSockets", "5 Canvas", "Compass"]}
+ - {url: "http://github.com/teijo/ascd",
+    date: 2012,
+    year: "'12",
+    text: "A Space Combat Server",
+    description: "Backend for the ASC project",
+    tech: ["Clojure"]}
+ - {url: "http://www.aropupu.fi/value-bar/",
+    date: 2012,
+    year: "'12",
+    text: "jQuery value-bar",
+    description: "Simple UI component for picking values from predefined range",
+    tech: ["LiveScript", "jQuery"]}
+ - {url: "https://github.com/teijo/aropupu.fi",
+    date: 2012,
+    year: "'12",
+    text: "New homepage",
+    description: "Redo homepage for improved usability and funny tech",
+    tech: ["WebDev", "Haml", "Sass", "Mustache"]}
+ - {url: "http://aropupu.fi/ttt/",
+    date: 2011,
+    year: "'11",
+    text: "Buzzword Tic-Tac-Toe",
+    description: "Try out some new tech with multiplayer tic-tac-toe",
+    tech: ["WebDev", "CoffeeScript", "Ruby", "5 Canvas", "5 WebSocket", "Haml", "Sass"]}
+ - {url: "http://aropupu.fi/web-2011",
+    date: 2011,
+    year: "'11",
+    text: "Homepage",
+    description: "Update my homepage with some eye candy",
+    tech: ["WebDev", "jQuery", "Haml", "Sass"]}
+ - {url: "http://aropupu.fi/bracket/",
+    date: 2011,
+    year: "'11-",
+    text: "jQuery Brackets",
+    description: "Open source tournament bracket library",
+    tech: ["OpenSource", "jQuery"]}
+ - {url: "http://reaktor.fi/",
+    date: 2011,
+    year: "'11-",
+    text: "Reaktor",
+    cls: ".reaktor",
+    description: "Senior software development consultant",
+    tech: ["Work"]}
+ - {url: "http://akisaarinen.fi/gb/",
+    date: 2011,
+    year: "'11",
+    text: "Project Ghettoblaster",
+    description: "DIY boombox, How we built a kick-ass portable boombox",
+    tech: ["OpenSource"]}
+ - {url: "http://nsn.com/",
+    date: 2007,
+    year: "'07-'11",
+    text: "Nokia Siemens Networks",
+    cls: ".nsn",
+    description: "Software engineer in system software",
+    tech: ["Work", "C", "Linux"]}
+ - {url: "http://www.youtube.com/watch?v=xuPympHTPUc",
+    date: 2010,
+    year: "'10",
+    text: "Particle Zone",
+    description: "Assembly QT compo winner",
+    tech: ["GameDev", "Qt", "Python"]}
+ - {url: "http://peerdigest.com/",
+    date: 2010,
+    year: "'10-",
+    text: "peerdigest.com",
+    description: "Digested reviews",
+    tech: ["WebDev", "PHP", "MySQL", "CodeIgniter", "jQuery"]}
+ - {url: "http://cadred.org/",
+    date: 2006,
+    year: "'06-'08",
+    text: "Cadred.org",
+    description: "Gaming community and eSports coverage site",
+    tech: ["WebDev", "PHP", "MySQL", "JS"]}
+ - {url: "http://akisaarinen.fi/netogler/",
+    date: 2008,
+    year: "'08",
+    text: "NetOgler",
+    description: "A distributed data gathering platform",
+    tech: ["Studies", "Qt", "PostgreSQL"]}
+ - {url: "http://www.assembly.org/",
+    date: 2007,
+    year: "'07",
+    text: "Tournament system",
+    description: "Assembly gaming competition management tool",
+    tech: ["WebDev", "PHP", "MySQL"]}
+ - {url: "http://www.youtube.com/watch?v=V288BUJkoZs",
+    date: 2007,
+    year: "'07",
+    text: "Centripetality",
+    description: "Assembly gamedev winner",
+    tech: ["GameDev", "OpenGL", "SDL", "C"]}
+ - {url: "http://www.youtube.com/watch?v=8EwzsKL8A7M",
+    date: 2006,
+    year: "'06",
+    text: "Super Puzzle 9",
+    description: "Assembly gamedev 5th",
+    tech: ["GameDev", "OpenGL", "SDL", "C++"]}
+---

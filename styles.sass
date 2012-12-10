@@ -1,0 +1,126 @@
+article
+  max-width: 1400px
+  margin: auto
+footer, header
+  padding: 1% 2%
+  float: left
+h1
+  font-size: 2em
+  @media (max-width: 300px)
+    font-size: 1.5em
+  @media (min-width: 1001px)
+    font-size: 2.5em
+h2
+  font-size: 1.5em
+  @media (max-width: 300px)
+    font-size: 1.2em
+  @media (min-width: 1001px)
+    font-size: 2em
+h3
+  font-weight: bold
+  padding: 1% 4%
+p
+  margin: 1% 4%
+a
+  display: block
+  height: 200px
+  width: 100%
+  text-decoration: none
+  color: #000
+  &:hover
+    background-color: rgba(255,230,128, 0.3)
+    time
+      color: #FC0
+  @media (max-width: 300px)
+    height: auto
+  @media (min-width: 301px) and (max-width: 400px)
+    height: 150px
+  @media (min-width: 401px)
+    height: 200px
+body
+  font-family: 'Dosis', sans-serif
+  margin: 0
+  padding: 0
+time
+  top: 0
+  right: 0
+  position: absolute
+  color: #CCC
+  padding: 1% 2%
+  background-color: #000
+ul#projects
+  float: left
+  padding: 1%
+  background-color: #EEE
+
+  .reaktor
+    background-image: url(reaktor.png)
+    background-position: center
+
+  .nsn
+    background-image: url(nsn.png)
+    background-position: center
+
+ul#projects > li
+  position: relative
+  margin: 1%
+  list-style-type: none
+  display: block
+  float: left
+  background-color: #FFF
+  ul
+    clear: both
+    width: 100%
+    padding: 1% 4%
+    li
+      margin-right: 4%
+      float: left
+      font-size: 0.8em
+      color: #036
+  @media (max-width: 300px)
+    width: 98%
+    ul
+      display: none
+    time
+      font-size: 0.6em
+  @media (min-width: 301px) and (max-width: 400px)
+    width: 48%
+    li:nth-child(n+3)
+      display: none
+    time
+      font-size: 0.7em
+  @media (min-width: 401px) and (max-width: 700px)
+    width: 31%
+    li:nth-child(n+4)
+      display: none
+    time
+      top: auto
+      bottom: 0
+      font-size: 1.5em
+      background-color: transparent
+      display: block
+      text-align: right
+  @media (min-width: 701px) and (max-width: 1000px)
+    width: 23%
+    li:nth-child(n+5)
+      display: none
+    time
+      top: auto
+      bottom: 0
+      font-size: 2.5em
+      background-color: transparent
+      display: block
+      text-align: right
+  @media (min-width: 1001px)
+    width: 18%
+    h3
+      font-size: 1.2em
+    p
+      clear: both
+    time
+      top: auto
+      bottom: 0
+      font-size: 3em
+      background-color: transparent
+      display: block
+      text-align: right
