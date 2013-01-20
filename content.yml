@@ -5,7 +5,7 @@ projects:
     year: "'13",
     text: "Cocktail browser",
     description: "Browser for IBA cocktail recipes",
-    tech: ["Lo-Dash", "Compass", "JSON"]}
+    tech: ["Lo-Dash", "Live.js", "Compass", "JSON"]}
  - {url: "http://github.com/teijo/arduino",
     date: 2013,
     year: "'13",
