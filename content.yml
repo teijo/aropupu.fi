@@ -1,5 +1,17 @@
 ---
 projects:
+ - {url: "http://aropupu.fi/cocktail-browser",
+    date: 2013,
+    year: "'13",
+    text: "Cocktail browser",
+    description: "Browser for IBA cocktail recipes",
+    tech: ["Lo-Dash", "Compass", "JSON"]}
+ - {url: "http://github.com/teijo/arduino",
+    date: 2013,
+    year: "'13",
+    text: "Arduino",
+    description: "Getting familiar with Arduino platform",
+    tech: ["Arduino", "Electronics", "Embedded"]}
  - {url: "http://github.com/teijo/asc",
     date: 2012,
     year: "'12",
