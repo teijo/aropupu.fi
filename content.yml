@@ -1,5 +1,11 @@
 ---
 projects:
+ - {url: "http://aropupu.fi/group",
+    date: 2013,
+    year: "'13",
+    text: "jQuery Group",
+    description: "Round-robin tournament groups editor",
+    tech: ["Bacon.js", "Lo-Dash", "Compass"]}
  - {url: "http://aropupu.fi/cocktail-browser",
     date: 2013,
     year: "'13",
