@@ -68,6 +68,11 @@ ul#projects > li
   display: block
   float: left
   background-color: #FFF
+  &.mugshot
+    background-image: url(https://secure.gravatar.com/avatar/6e95357e3d1dbede22ce3e3a4d4960fc?s=246)
+    background-position: center
+    @media (max-width: 300px)
+      display: none
   ul
     clear: both
     width: 100%
