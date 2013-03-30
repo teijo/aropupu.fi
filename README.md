@@ -11,7 +11,8 @@ rvm install ruby-1.9.2
 Install gems
 
 ```
-gem install mustache haml sass
+gem install bundler
+bundle install
 ```
 
 Compile website
