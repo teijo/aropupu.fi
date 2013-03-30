@@ -35,6 +35,9 @@
               {{#tech}}
               %li {{.}}
               {{/tech}}
+          {{#repo}}
+            %iframe(src="http://ghbtns.com/github-btn.html?user=teijo&repo={{repo}}&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20")
+          {{/repo}}
       {{/projects}}
       %footer
         %address

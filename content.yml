@@ -4,42 +4,49 @@ projects:
     date: 2013,
     year: "'13",
     text: "jQuery Group",
+    repo: "jquery-group",
     description: "Round-robin tournament groups editor",
     tech: ["Bacon.js", "Lo-Dash", "Compass"]}
  - {url: "http://aropupu.fi/cocktail-browser",
     date: 2013,
     year: "'13",
     text: "Cocktail browser",
+    repo: "cocktail-browser",
     description: "Browser for IBA cocktail recipes",
     tech: ["Lo-Dash", "Live.js", "Compass", "JSON"]}
  - {url: "http://github.com/teijo/arduino",
     date: 2013,
     year: "'13",
     text: "Arduino",
+    repo: "arduino",
     description: "Getting familiar with Arduino platform",
     tech: ["Arduino", "Electronics", "Embedded"]}
  - {url: "http://github.com/teijo/asc",
     date: 2012,
     year: "'12",
     text: "A Space Combat",
+    repo: "asc",
     description: "Real-time multiplayer browser shooter",
     tech: ["LiveScript", "bacon.js", "5 WebSockets", "5 Canvas", "Compass"]}
  - {url: "http://github.com/teijo/ascd",
     date: 2012,
     year: "'12",
     text: "A Space Combat Server",
+    repo: "ascd",
     description: "Backend for the ASC project",
     tech: ["Clojure"]}
  - {url: "http://www.aropupu.fi/value-bar/",
     date: 2012,
     year: "'12",
     text: "jQuery value-bar",
+    repo: "jquery-value-bar",
     description: "Simple UI component for picking values from predefined range",
     tech: ["LiveScript", "jQuery"]}
  - {url: "https://github.com/teijo/aropupu.fi",
     date: 2012,
-    year: "'12",
+    year: "'12-",
     text: "New homepage",
+    repo: "aropupu.fi",
     description: "Redo homepage for improved usability and funny tech",
     tech: ["WebDev", "Haml", "Sass", "Mustache"]}
  - {url: "http://aropupu.fi/ttt/",
@@ -58,6 +65,7 @@ projects:
     date: 2011,
     year: "'11-",
     text: "jQuery Brackets",
+    repo: "jquery-bracket",
     description: "Open source tournament bracket library",
     tech: ["OpenSource", "jQuery"]}
  - {url: "http://reaktor.fi/",
@@ -88,7 +96,7 @@ projects:
     tech: ["GameDev", "Qt", "Python"]}
  - {url: "http://peerdigest.com/",
     date: 2010,
-    year: "'10-",
+    year: "'10-'11",
     text: "peerdigest.com",
     description: "Digested reviews",
     tech: ["WebDev", "PHP", "MySQL", "CodeIgniter", "jQuery"]}
