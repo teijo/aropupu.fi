@@ -2,6 +2,8 @@ article
   max-width: 1400px
   margin: auto
 footer, header
+  width: 100%
+  clear: both
   padding: 1% 2%
   float: left
 h1
@@ -69,6 +71,15 @@ ul#projects
     background-image: url(nsn.png)
     background-position: center
 
+div#left
+  float: left
+  width: 70%
+
+div#right
+  float: right
+  width: 29%
+  margin-left: 1%
+
 ul#projects > li
   position: relative
   margin: 1%
@@ -76,6 +87,8 @@ ul#projects > li
   display: block
   float: left
   background-color: #FFF
+  &.feed
+    float: right
   &.mugshot
     background-image: url(https://secure.gravatar.com/avatar/6e95357e3d1dbede22ce3e3a4d4960fc?s=256)
     background-position: center

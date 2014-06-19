@@ -16,29 +16,48 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+    :javascript
+      function resizeWidget() {
+        var widget = document.getElementById("twitter-widget-0");
+        var list = document.getElementById("projects");
+        if (list && widget) {
+          widget.style.height = list.clientHeight + "px";
+        }
+      }
   %body
     %article
       %header
         %h1 Teijo Laine
         %h2 Projects
-      %ul#projects
-        %li(class="mugshot")
-          %a(title="LinkedIn" href="http://fi.linkedin.com/pub/teijo-laine/53/655/663/")
-      {{#projects}}
-        %li{{cls}}
-          %a(href="{{url}}")
-            %time(datetime="{{date}}") {{year}}
-            %h3
-              {{text}}
-            %p {{description}}
-            %ul
-              {{#tech}}
-              %li {{.}}
-              {{/tech}}
-          {{#repo}}
-            %iframe(src="http://ghbtns.com/github-btn.html?user=teijo&repo={{repo}}&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20")
-          {{/repo}}
-      {{/projects}}
+      %div#left
+        %ul#projects
+          %li(class="mugshot")
+            %a(title="LinkedIn" href="http://fi.linkedin.com/pub/teijo-laine/53/655/663/")
+        {{#projects}}
+          %li{{cls}}
+            %a(href="{{url}}")
+              %time(datetime="{{date}}") {{year}}
+              %h3
+                {{text}}
+              %p {{description}}
+              %ul
+                {{#tech}}
+                %li {{.}}
+                {{/tech}}
+            {{#repo}}
+              %iframe(src="http://ghbtns.com/github-btn.html?user=teijo&repo={{repo}}&type=fork" allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20")
+            {{/repo}}
+        {{/projects}}
+      %div#right
+        %a(class="twitter-timeline" href="https://twitter.com/TeijoLaine" data-widget-id="475228323438530560")
+          Tweets by @TeijoLaine
+      %script
+        !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
       %footer
         %address
           Contact via mail teijo@thisdomain
+
+    :javascript
+      window.onresize = resizeWidget;
+      window.setInterval(resizeWidget, 1000);
+
