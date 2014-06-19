@@ -2,6 +2,7 @@ article
   max-width: 1400px
   margin: auto
 footer, header
+  box-sizing: border-box
   width: 100%
   clear: both
   padding: 1% 2%
@@ -74,11 +75,27 @@ ul#projects
 div#left
   float: left
   width: 70%
+  @media (max-width: 300px)
+    float: left
+    width: 100%
+    clear: left
+  @media (min-width: 301px) and (max-width: 400px)
+    width: 50%
+  @media (min-width: 401px) and (max-width: 700px)
+    width: 60%
 
 div#right
   float: right
   width: 29%
   margin-left: 1%
+  @media (max-width: 300px)
+    float: left
+    width: 100%
+    clear: left
+  @media (min-width: 301px) and (max-width: 400px)
+    width: 49%
+  @media (min-width: 401px) and (max-width: 700px)
+    width: 39%
 
 ul#projects > li
   position: relative
@@ -110,14 +127,14 @@ ul#projects > li
     time
       font-size: 0.6em
   @media (min-width: 301px) and (max-width: 400px)
-    width: 48%
-    li:nth-child(n+3)
+    width: 98%
+    li:nth-child(n+2)
       display: none
     time
       font-size: 0.7em
   @media (min-width: 401px) and (max-width: 700px)
-    width: 31%
-    li:nth-child(n+4)
+    width: 48%
+    li:nth-child(n+3)
       display: none
     time
       top: auto
@@ -127,8 +144,8 @@ ul#projects > li
       display: block
       text-align: right
   @media (min-width: 701px) and (max-width: 1000px)
-    width: 23%
-    li:nth-child(n+5)
+    width: 31%
+    li:nth-child(n+4)
       display: none
     time
       top: auto
@@ -138,7 +155,7 @@ ul#projects > li
       display: block
       text-align: right
   @media (min-width: 1001px)
-    width: 18%
+    width: 23%
     h3
       font-size: 1.2em
     p
