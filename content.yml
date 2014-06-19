@@ -87,13 +87,6 @@ projects:
     text: "Project Ghettoblaster",
     description: "DIY boombox, How we built a kick-ass portable boombox",
     tech: ["OpenSource"]}
- - {url: "http://nsn.com/",
-    date: 2007,
-    year: "'07-'11",
-    text: "Nokia Siemens Networks",
-    cls: ".nsn",
-    description: "Software engineer in system software",
-    tech: ["Work", "C", "Linux"]}
  - {url: "http://www.youtube.com/watch?v=xuPympHTPUc",
     date: 2010,
     year: "'10",
@@ -106,12 +99,6 @@ projects:
     text: "peerdigest.com",
     description: "Digested reviews",
     tech: ["WebDev", "PHP", "MySQL", "CodeIgniter", "jQuery"]}
- - {url: "http://cadred.org/",
-    date: 2006,
-    year: "'06-'08",
-    text: "Cadred.org",
-    description: "Gaming community and eSports coverage site",
-    tech: ["WebDev", "PHP", "MySQL", "JS"]}
  - {url: "http://akisaarinen.fi/netogler/",
     date: 2008,
     year: "'08",
@@ -130,6 +117,19 @@ projects:
     text: "Centripetality",
     description: "Assembly gamedev winner",
     tech: ["GameDev", "OpenGL", "SDL", "C"]}
+ - {url: "http://nsn.com/",
+    date: 2007,
+    year: "'07-'11",
+    text: "Nokia Siemens Networks",
+    cls: ".nsn",
+    description: "Software engineer in system software",
+    tech: ["Work", "C", "Linux"]}
+ - {url: "http://cadred.org/",
+    date: 2006,
+    year: "'06-'08",
+    text: "Cadred.org",
+    description: "Gaming community and eSports coverage site",
+    tech: ["WebDev", "PHP", "MySQL", "JS"]}
  - {url: "http://www.youtube.com/watch?v=8EwzsKL8A7M",
     date: 2006,
     year: "'06",
