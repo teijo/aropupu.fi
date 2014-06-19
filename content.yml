@@ -1,5 +1,11 @@
 ---
 projects:
+ - {url: "https://play.google.com/store/apps/details?id=com.xenotrongame.client",
+    date: 2014,
+    year: "'14",
+    text: "Xenotron",
+    description: "Arcade space shoot 'em up for Android mobile platform",
+    tech: ["libGDX", "Java", "Bfxr"]}
  - {url: "http://aropupu.fi/group",
     date: 2013,
     year: "'13",
