@@ -1,5 +1,32 @@
 ---
 projects:
+ - {url: "http://www.gotbracket.com/",
+    date: 2015,
+    year: "'15",
+    text: "GotBracket.com",
+    description: "Tournament hosting service",
+    tech: ["AWS", "Docker", "Redis", "React"]}
+ - {url: "https://github.com/teijo/retro-arcade",
+    date: 2015,
+    year: "'15",
+    text: "ARCANE CODER",
+    repo: "retro-arcade",
+    description: "Hyper Olympic -inspired arcade coding game",
+    tech: ["ES6", "React", "WebAudio", "Bfxr"]}
+ - {url: "https://github.com/teijo/VisualKeyboard",
+    date: 2015,
+    year: "'15",
+    text: "VisualKeyboard",
+    repo: "VisualKeyboard",
+    description: "Visualize your keyboard inputs",
+    tech: ["Rx.NET", "C#"]}
+ - {url: "https://github.com/teijo/intellij-colors-spartan",
+    date: 2015,
+    year: "'15",
+    text: "Spartan color scheme for IDEA",
+    repo: "intellij-colors-spartan",
+    description: "IDE color scheme with emphasis on navigation and error highlighting",
+    tech: ["IntelliJ IDEA"]}
  - {url: "https://play.google.com/store/apps/details?id=com.xenotrongame.client",
     date: 2014,
     year: "'14",
