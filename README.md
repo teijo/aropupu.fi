@@ -18,5 +18,5 @@ bundle install
 Compile website
 
 ```
-mustache content.yml mustache.haml | haml > index.html && sass styles.sass > styles.css
+./build.sh
 ```
